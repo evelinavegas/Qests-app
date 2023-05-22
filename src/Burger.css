@@ -1,0 +1,43 @@
+.menu-btn{
+    display: block;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after{
+    position: absolute;
+    top:50%;
+    margin-top: -1.5px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    transition: 0.3s;
+}
+.menu-btn span:before,
+.menu-btn span:after{
+    content: '';
+}
+.menu-btn span:before{
+    transform: translateY(-5px);
+}
+
+.menu-btn-active span{
+    height: 0;
+} 
+.menu-btn span:after{
+    transform: translateY(5px);
+}
+.menu-btn-active span:before{
+    transform: rotate(45deg);
+}
+.menu-btn-active span:after{
+    transform: rotate(-45deg);
+} 
