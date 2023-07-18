@@ -134,6 +134,7 @@
 
 .main-block-info > div{
   padding: 0 20px;
+  align-items: center;
 }
 .main-block-info > div{
   border-right: 1px solid rgba(255, 255, 255, 0.32);
@@ -167,7 +168,7 @@
 
 .qest-heading{
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 95%;
   padding-bottom: 20px;
 }
